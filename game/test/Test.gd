@@ -8,7 +8,7 @@ func _ready() -> void:
 	#mlpp_tests.test_linear_algebra()
 	#mlpp_tests.test_univariate_linear_regression()
 	
-	var ui : bool = false
+	var ui : bool = true
 	
 	#mlpp_tests.test_multivariate_linear_regression_gradient_descent(ui)
 	#mlpp_tests.test_multivariate_linear_regression_sgd(ui)
@@ -40,7 +40,7 @@ func _ready() -> void:
 #
 #	mlpp_tests.test_naive_bayes()
 #	mlpp_tests.test_k_means(ui)
-#	mlpp_tests.test_knn(ui)
+	mlpp_tests.test_knn(ui)
 #
 #	mlpp_tests.test_convolution_tensors_etc()
 #	mlpp_tests.test_pca_svd_eigenvalues_eigenvectors(ui)
@@ -52,5 +52,5 @@ func _ready() -> void:
 #	mlpp_tests.test_numerical_analysis()
 #	mlpp_tests.test_support_vector_classification_kernel(ui)
 
-	mlpp_tests.test_mlpp_matrix()
-	mlpp_tests.test_mlpp_vector()
+#	mlpp_tests.test_mlpp_matrix()
+#	mlpp_tests.test_mlpp_vector()
