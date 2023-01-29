@@ -39,8 +39,8 @@ func _ready() -> void:
 #	mlpp_tests.test_train_test_split_mann(ui)
 #
 #	mlpp_tests.test_naive_bayes()
-#	mlpp_tests.test_k_means(ui)
-	mlpp_tests.test_knn(ui)
+	mlpp_tests.test_k_means(ui)
+#	mlpp_tests.test_knn(ui)
 #
 #	mlpp_tests.test_convolution_tensors_etc()
 #	mlpp_tests.test_pca_svd_eigenvalues_eigenvectors(ui)
