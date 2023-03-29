@@ -6,7 +6,7 @@ func _ready() -> void:
 	mlpp_tests = MLPPTests.new()
 	#mlpp_tests.test_statistics()
 	#mlpp_tests.test_linear_algebra()
-	#mlpp_tests.test_univariate_linear_regression()
+#	mlpp_tests.test_univariate_linear_regression()
 	
 #	var ui : bool = true
 	var ui : bool = false
@@ -26,7 +26,7 @@ func _ready() -> void:
 #	mlpp_tests.test_probit_regression(ui)
 #	mlpp_tests.test_c_log_log_regression(ui)
 #	mlpp_tests.test_exp_reg_regression(ui)
-#	mlpp_tests.test_tanh_regression(ui)
+	mlpp_tests.test_tanh_regression(ui)
 #	mlpp_tests.test_softmax_regression(ui)
 #	mlpp_tests.test_support_vector_classification(ui)
 #
@@ -34,8 +34,8 @@ func _ready() -> void:
 #	mlpp_tests.test_soft_max_network(ui)
 #	mlpp_tests.test_autoencoder(ui)
 #	mlpp_tests.test_dynamically_sized_ann(ui)
-	mlpp_tests.test_wgan_old(ui)
-	mlpp_tests.test_wgan(ui)
+#	mlpp_tests.test_wgan_old(ui)
+#	mlpp_tests.test_wgan(ui)
 #	mlpp_tests.test_ann(ui)
 #	mlpp_tests.test_dynamically_sized_mann(ui)
 #	mlpp_tests.test_train_test_split_mann(ui)
