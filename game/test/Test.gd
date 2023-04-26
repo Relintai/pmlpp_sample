@@ -26,7 +26,7 @@ func _ready() -> void:
 #	mlpp_tests.test_probit_regression(ui)
 #	mlpp_tests.test_c_log_log_regression(ui)
 #	mlpp_tests.test_exp_reg_regression(ui)
-	mlpp_tests.test_tanh_regression(ui)
+#	mlpp_tests.test_tanh_regression(ui)
 #	mlpp_tests.test_softmax_regression(ui)
 #	mlpp_tests.test_support_vector_classification(ui)
 #
@@ -54,5 +54,6 @@ func _ready() -> void:
 #	mlpp_tests.test_numerical_analysis()
 #	mlpp_tests.test_support_vector_classification_kernel(ui)
 
-#	mlpp_tests.test_mlpp_matrix()
 #	mlpp_tests.test_mlpp_vector()
+#	mlpp_tests.test_mlpp_matrix()
+	mlpp_tests.test_mlpp_matrix_mul()
